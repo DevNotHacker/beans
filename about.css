@@ -1,0 +1,40 @@
+@import url('http://fonts.cdnfonts.com/css/beans');
+body{
+    background-color: rgb(50, 50, 50);
+	font-family: 'Beans', sans-serif;
+}
+/*top nav*/
+#nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2b2b2b;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-radius: 10px;
+	transition: 0.4s;
+}
+
+#nav li a:hover {
+	background-color: #000000;
+}
+#thebeanbutton {
+	height: auto;
+	width: auto;
+	max-height: 40px;
+	max-width: 200px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+/*end top nav*/

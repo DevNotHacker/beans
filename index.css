@@ -3,10 +3,13 @@ body{
     background-color: rgb(50, 50, 50);
 	font-family: 'Beans', sans-serif;
 }
+
+
 #main{
     text-align: center;
     color: rgb(200, 200, 200);
 }
+/*top nav*/
 #nav{
 	list-style-type: none;
 	margin: 0;
@@ -40,11 +43,12 @@ body{
 	border-radius: 10px;
 	cursor: pointer;
 }
+/*end top nav*/
 #iswhat {
 	font-size: 19.25px;
 	background: skyblue;
 	color: whitesmoke;
-	min-height: 28vh;
+	min-height: 40vh;
 	display: flex;
 	align-items: center;
 	border-radius: 15px;
