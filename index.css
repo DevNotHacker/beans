@@ -61,6 +61,7 @@ body{
 	left: 15%;
 	text-align: center;
 	animation: slideiniswhat 1.2s ease-in-out;
+	overflow: hidden;
 }
 #shop, #earn {
 	color: #948f8f !important;
@@ -73,6 +74,6 @@ body{
 	background: #cad9ad;
 }
 @keyframes slideiniswhat {
-	from {left: 101vw;}
+	from {left: 101vw; overflow: hidden;}
 	to {left: 15%;}
 }
