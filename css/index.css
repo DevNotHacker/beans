@@ -55,13 +55,16 @@ body{
 	overflow: hidden;
 }
 #iswhat div {
-	display: inline;
+	display: none;
 	position: absolute;
 	width: 70%;
 	left: 15%;
 	text-align: center;
 	overflow: hidden;
+}
+.slide_in_show{
 	animation: slideiniswhat 1.2s ease-in-out;
+	display: inline
 }
 #shop, #earn {
 	color: #948f8f !important;
