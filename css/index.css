@@ -64,7 +64,7 @@ body{
 }
 .slide_in_show{
 	animation: slideiniswhat 1.2s ease-in-out;
-	display: inline
+	display: inline !important;
 }
 #shop, #earn {
 	color: #948f8f !important;
