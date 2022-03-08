@@ -47,7 +47,7 @@ body{
 #iswhat {
 	font-size: 19.25px;
 	background: skyblue;
-	color: whitesmoke;
+	color: rgb(65, 65, 65);
 	min-height: 40vh;
 	display: flex;
 	align-items: center;
