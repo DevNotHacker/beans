@@ -1,4 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/beans');
+@import url('https://fonts.cdnfonts.com/css/beans');
 body{
     background-color: rgb(50, 50, 50);
 	font-family: 'Beans', sans-serif;
@@ -10,7 +10,16 @@ body{
 	overflow: hidden;
 	background-color: #2b2b2b;
 }
-
+a{
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+    transition: 0.3s;
+}
+a:hover{
+    color: rgb(110, 110, 110);
+    font-size: 24x;
+    transition: 0.3s;
+}
 #nav li {
 	float: left;
 }
@@ -98,3 +107,9 @@ body{
 	to{opacity: 0;}
 }
 /*end*/
+.game {
+	display: inline;
+}
+.game a {
+	text-decoration: none;
+}
